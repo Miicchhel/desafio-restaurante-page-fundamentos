@@ -34,6 +34,10 @@ a{
     text-decoration: none;
 }
 
+strong{
+    font-weight: 400;
+}
+
 .container{
     padding: 1rem 1rem;
 }
