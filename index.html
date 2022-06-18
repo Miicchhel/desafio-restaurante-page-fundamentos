@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Adicione o estilo da sua página no arquivo CSS -->
-  <link rel="stylesheet" href="style.css">
+    <!-- Adicione o estilo da sua página no arquivo CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/chamada.css">
 
-  <!-- Algum nome especial para seu restaurante? -->
-  <title>Document</title>
+    <!-- Algum nome especial para seu restaurante? -->
+    <title>Mexicanamente</title>
 
 </head>
+
 <body>
-  <!-- Adicione aqui a estrutura HTML da página do seu restaurante -->
+
+    <header class="cabecalho container">
+        <h1 class="cabecalho__titulo">Mexicanamente</h1>
+        <nav class="cabecalho__navegacao">
+            <ul class="cabecalho__navegacao-ul">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Unidades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="chamada">
+            <figure class="chamada__painel">
+                <img src="img/chaves.png" alt="Imagem de fundo do chaves vendo o seu madruga tocando violão" class="chamada__painel-imagem">
+                <div class="chamada__painel-div filtro-bg">
+                    <figcaption class="chamada__painel-texto">A verdade comida mexicana</figcaption>
+                    <div class="chamada__painel-desenho"></div>
+                </div>
+            </figure >
+        </section>
+    </main>
+
 </body>
+
 </html>

@@ -1,0 +1,34 @@
+.chamada__painel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada__painel-imagem{
+    width: 100vw;
+    max-width: 564px
+}
+
+.chamada__painel-div{
+    position: absolute;
+    top:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chamada__painel-texto{
+    width: 100%;
+    font-size: 2.4rem;
+    color: var(--branco);
+    text-align: center;
+    font-family: 'Permanent Marker',cursive;
+}
+
+.chamada__painel-desenho{
+    background: url(../img/chapel.png) center / cover no-repeat;
+    width: 80px;
+    height: 80px;
+}
