@@ -1,0 +1,33 @@
+.sobre{
+    background-color: var(--laranja);
+}
+
+.sobre__box{
+    background-color: var(--branco);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.sobre__box-desenho{
+    background: url(../img/fleres.png) center / cover no-repeat;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.sobre__titulo{
+    color: var(--cinza-escuro);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sobre_texto{
+    color: var(--preto-medio);
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 0.9rem;
+}
+
+.sobre_texto:nth-child(){
+    font-weight: bold;
+}
