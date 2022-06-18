@@ -1,0 +1,32 @@
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--cinza-medio);
+    padding-bottom: 1rem;
+}
+
+.cabecalho__titulo{
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--vermelho-medio);
+    text-shadow: 2px 2px var(--verde-escuro);
+    font-family: 'Permanent Marker',cursive;
+}
+
+.cabecalho__navegacao{
+    width: 100%;
+}
+
+.cabecalho__navegacao-ul{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecalho__navegacao-ul a{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--vermelho-escuro);
+}
